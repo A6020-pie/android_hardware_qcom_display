@@ -35,7 +35,7 @@
 #define PAGE_SHIFT      12
 #define PAGE_SIZE       (1 << PAGE_SHIFT)
 #endif
-
+#include <string.h>
 #include <linux/msm_mdp.h>
 #include "mdp_version.h"
 #include "qd_utils.h"
